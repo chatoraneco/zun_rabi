@@ -14,7 +14,7 @@ function setup(){
 	//スプライトを作る
 	player = new Sprite(50,462);
 	player.diameter = 35;
-	player.image = "./assets/ずんだ.png"
+	//player.image = "./assets/ずんだ.png"
 	player.collider = "dynamic";//物理演算有効
 
 	clear = new Sprite(1040,100);

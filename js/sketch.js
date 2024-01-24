@@ -12,7 +12,7 @@ function setup(){
 	world.gravity.x = -1;// 横重力
 	frameRate(60);// フレームレート
 	//スプライトを作る
-	player = new Sprite(50,462);
+	player = new Sprite(1050,462);
 	player.diameter = 35;
 	//player.image = "./assets/ずんだ.png"
 	player.collider = "dynamic";//物理演算有効
